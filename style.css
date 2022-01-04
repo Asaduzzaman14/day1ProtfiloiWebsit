@@ -36,3 +36,9 @@ padding:3%;
     background-repeat: no-repeat;
 
 }
+.main-section{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    
+}
