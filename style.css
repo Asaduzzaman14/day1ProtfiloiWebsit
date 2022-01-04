@@ -10,9 +10,12 @@ h1{
 .orange_class{
     color:orange;
 }
-section{
+.top-banner{
     display:flex;
     margin-bottom:100px;
+}
+section{
+    margin-bottom: 100px;;
 }
 
 .half-class{
@@ -42,3 +45,46 @@ padding:3%;
     background-position: right;
     
 }
+.card-container{
+    display:flex;
+    padding:3%;
+}
+.card-section h2{
+    text-transform:capitalize;
+    text-align:center;
+}
+.card-section{
+    background-image: url(images/exp-bg.png);
+    background-repeat:no-repeat;
+    background-position-y:30px ;
+}
+.experiance-item{
+    width:50%;
+    padding:10px;
+    margin:5%;
+    border-radius:15px;
+   box-shadow: 5px 10px 20px black;
+   transition: .2s;
+  
+}
+.experiance-item:hover{
+    transform: scale(1.02);
+}
+.exp-name{
+    font-size: 30px;
+};
+.red-borderr {
+    border-left: 5px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+    border-radius: 15px;
+}
+
+
+.blue-border{
+    border-left: 5px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+    border-radius: 15px;
+}
+
